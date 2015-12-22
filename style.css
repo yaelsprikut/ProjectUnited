@@ -192,7 +192,7 @@ max-height: 63px; z-index:999;}
 
 .primary-menu > li:hover > a,
 .primary-menu li.current-menu-item > a { color: #fff; }
-.primary-menu > li:hover > a { background: #a31010; }
+.primary-menu > li:hover > a { background: #00a180; }
 .primary-menu > li.menu-item-has-children:hover > a:after { border-top-color: #fff; }
 
 
@@ -298,7 +298,7 @@ max-height: 63px; z-index:999;}
 
 .secondary-menu > li:hover > a,
 .secondary-menu li.current-menu-item > a { color: #fff; }
-.secondary-menu > li:hover > a { background: #a31010; }
+.secondary-menu > li:hover > a { background: #00a180; }
 .secondary-menu > li.menu-item-has-children:hover > a:after { border-top-color: #fff; }
 
 .secondary-menu ul {
