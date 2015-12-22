@@ -3,7 +3,7 @@
 		<div class="home-container">
      	    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class('item-list mbottom'); ?>>
-        <div class="cthumb">
+        <div  onmouseover="" class="cthumb">
             <a href="<?php the_permalink(); ?>">
 			  <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'large');} else { ?>
                 <img src="<?php  echo get_template_directory_uri(); ?>/images/default-image.png" alt="<?php the_title_attribute();  ?>" />

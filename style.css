@@ -69,6 +69,29 @@ padding: 2.5em;
 h4.postheader{color:#00e6b8; text-align:center; font-size:1.5em;}
 h5.postheader{color:#fff; text-align:center;}
 
+/* BACKGROUND TRANSITIONS */
+/* Fade */
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #2098d1;
+  color: white;
+}
+
+
 /* END Yael's additional styles */
 .aligncenter{float:center;}
 .alignright {float:right;}
@@ -548,14 +571,23 @@ code { background: #e8eaee; padding: 0 .375em; }
 .cat-head{background-color: #fff; margin-top: 0px; padding: 30px;overflow: auto; background-color:#333;}
 .cat-head h1{margin:0px; color:#fff; font-size:28px; }
 .cat-head p {color:#fff;}
-.cthumb {position: relative; height:240px; overflow:hidden; }
+.cthumb {position: relative; height:240px; overflow:hidden; background:#325a6a; }
 .cthumb a {display:block;}
-.cthumb a img {height:260px;width:100%; -webkit-transition: all .9s ease;
-                -moz-transition: all .9s ease;                  -o-transition: all .9s ease;                     transition: all .9s ease;}
+.cthumb a img {
+height:260px;
+width:100%; 
+-webkit-transition: all .9s ease;
+-moz-transition: all .9s ease;                  
+-o-transition: all .9s ease;                     
+transition: all .9s ease;}
 
-.cthumb a img:hover {  -webkit-transform: scale(1.1);
-       -moz-transform: scale(1.1);         -o-transform: scale(1.1);
-            transform: scale(1.1);}
+.cthumb a img:hover {  
+-webkit-transform: scale(1.1); 
+-moz-transform: scale(1.1);         
+-o-transform: scale(1.1);
+transform: scale(1.1);
+opacity:0.25;
+}
 
 .catbox { position: absolute; z-index: 10; bottom: 10px; left: 10px;}   
 .catbox ul li{float:left;display:inline-block;}
