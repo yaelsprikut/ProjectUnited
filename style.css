@@ -60,7 +60,16 @@ input.text_input:focus,textarea.textarea:focus {border: 1px solid #999;	}
  
 /********************* 
 02. LAYOUT & GRID STYLES */
+/* Yael's additional styles */
 
+div.postheader{
+background-image: url("http://projectunitedcity.com/wp-content/uploads/2015/12/Website_Banner-Background.jpg");
+padding: 2.5em;
+}
+h4.postheader{color:#00e6b8; text-align:center; font-size:1.5em;}
+h5.postheader{color:#fff; text-align:center;}
+
+/* END Yael's additional styles */
 .aligncenter{float:center;}
 .alignright {float:right;}
 .alignleft {float:left;}
@@ -175,7 +184,7 @@ max-height: 63px; z-index:999;}
 .primary-menu > li > a {
 	display: block;
 	padding: 21px 15px;
-	color: #d2d2d2;
+	color: #003246;
 }
 
 .primary-menu > li.menu-item-has-children > a { padding-right: 30px; }
@@ -192,7 +201,7 @@ max-height: 63px; z-index:999;}
 
 .primary-menu > li:hover > a,
 .primary-menu li.current-menu-item > a { color: #fff; }
-.primary-menu > li:hover > a { background: #00a180; }
+/* .primary-menu > li:hover > a { background: #00a180; } */
 .primary-menu > li.menu-item-has-children:hover > a:after { border-top-color: #fff; }
 
 
@@ -298,7 +307,7 @@ max-height: 63px; z-index:999;}
 
 .secondary-menu > li:hover > a,
 .secondary-menu li.current-menu-item > a { color: #fff; }
-.secondary-menu > li:hover > a { background: #00a180; }
+/* .secondary-menu > li:hover > a { background: #00a180; } */
 .secondary-menu > li.menu-item-has-children:hover > a:after { border-top-color: #fff; }
 
 .secondary-menu ul {

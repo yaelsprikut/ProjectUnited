@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 	<section id="content" class="first clearfix">
 		<div class="home-container">
-	<h4 align="center" style="color:gray">Project United is a Movement aimed at empowering those battling poverty</h4>
-			<h5 style="color:gray" align="center">We are mapping stories to raise awareness, create change and engage YOU</h5><br>
      	    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class('item-list mbottom'); ?>>
         <div class="cthumb">
