@@ -99,7 +99,7 @@ h5.postheader{color:#fff; text-align:center;}
 .center {text-align:center;}
 .wrap {margin:0 auto;}
 
-.container {max-width:1400px; margin:auto; clear:both;}
+.container {max-width:87.500em; margin:auto; clear:both;}
 .cat-container,.home-container {overflow:auto;}
 .post-container,.page-container {margin-right: 400px; overflow:auto;} 
 .full-width{margin-right:0px !important; margin-left:0px !important; }
@@ -574,7 +574,7 @@ code { background: #e8eaee; padding: 0 .375em; }
 .cthumb {position: relative; height:240px; overflow:hidden; background:#325a6a; }
 .cthumb a {display:block;}
 .cthumb a img {
-height:260px;
+height:16.250em;
 width:100%; 
 -webkit-transition: all .9s ease;
 -moz-transition: all .9s ease;                  
