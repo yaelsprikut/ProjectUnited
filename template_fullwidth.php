@@ -151,9 +151,7 @@
 	                <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article">
                         <div class="singlebox">
                             <?php wiles_breadcrumbs() ?>
-		     					<header class="article-header">
-								    <h1 class="post-title" align="center"><?php the_title(); ?></h1>
-			  				    </header> <!-- end header -->
+		     					
 							    <section class="entry-content clearfix">
 							        <?php the_content(); ?>
 								    <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'wiles' ), 'after' => '</div>' ) ); ?>
