@@ -78,7 +78,8 @@
 			 <p align="center">
 				 <img src="http://projectunitedcity.com/wp-content/uploads/2015/12/ProjectUnited_Logo-Only.png" width="100em"><br>
 				 <h4 class="postheader">Project United is a Movement aimed at empowering those battling poverty.</h4>
-				 <h5 class="postheader">We are mapping stories to raise awareness, create change and engage you.</h5>
+				 <h5 class="postheader">We are mapping stories to raise awareness, create change and engage you.</h5><br><br>
+				 <div align="center"><a class="btn" href="http://projectunitedcity.com/story-map-page/">&#10097; Read Our Stories</a></div>
 			 </p>		
 		</div>'; ?>
 		<!-- /postheader -->

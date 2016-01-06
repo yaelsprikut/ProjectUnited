@@ -63,7 +63,7 @@ input.text_input:focus,textarea.textarea:focus {border: 1px solid #999;	}
 /* Yael's additional styles */
 
 div.postheader{
-background-image: url("http://projectunitedcity.com/wp-content/uploads/2015/12/Website_Banner-Background.jpg");
+background-image: url("http://projectunitedcity.com/wp-content/uploads/2016/01/Website_Banner-Background2.jpg");
 padding: 2.5em;
 }
 h4.postheader{color:#00e6b8; text-align:center; font-size:1.5em;}
@@ -508,6 +508,7 @@ max-height: 63px; z-index:999;}
 	color: #222;
 }
 
+
 .search-container .search-field:focus { outline: none; }
 
 .search-container .search-button {
@@ -524,6 +525,23 @@ max-height: 63px; z-index:999;}
 .search-container .search-button:hover {
 	cursor: pointer;
 	color: #2c94f2;
+}
+
+.btn {
+  background: transparent;
+  border: solid #00e6b8 2px;
+  font-family: Arial;
+  color: #00e6b8;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #00b893 !important;
+  border: solid #00b893 2px;
+  text-decoration: none;
 }
 
 
