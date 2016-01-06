@@ -13,11 +13,8 @@
      	            <?php if ( has_nav_menu( 'footer-menu' ) ) :
          			wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => '', 'menu_id' =>'footer-nav-links', 'menu_class'=>'footer-menu seven-col last', 'depth' => 0, ) );
 			        endif; ?>
-					<p align="center" style="color:white; font-size:0.8em;">Partnering with <br><img src="https://warmestwishes.ca/img/uwtyr_logo_ww_micrositebanner_cropped.png" width="150em"></p>
-					<div id="footer-copyright">
-                      <p class="vsmall"><span class="alignleft">&copy; <?php echo date("Y") ?> <?php bloginfo('name'); ?>. <?php _e('All Rights Reserved.', 'wiles'); ?></span>
-                       <span class="alignright "> <span class="alignright "><a href="http://wpdean.com/wiles-wordpress-theme/" >Wiles</a> Theme. <?php _e('Powered by ', 'wiles'); ?><a href="http://wordpress.org/">WordPress</a>.</span></p>
-                    </div>
+					<p align="center" style="color:white; font-size:0.8em;padding:0;">Partnering with <br><img src="https://warmestwishes.ca/img/uwtyr_logo_ww_micrositebanner_cropped.png" width="150em"></p>
+					
                     </div>
                 </div><!-- end #inner-footer -->
 			</footer> <!-- end footer -->
