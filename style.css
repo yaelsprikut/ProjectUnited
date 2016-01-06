@@ -952,7 +952,7 @@ height: 20px;}
 #bottom-footer p{color:#999; padding-top:0; font-size:11px; margin-top:2px;}
 #main-footer a {color:#1e8cbe;}
 #main-footer a:hover{color:#fff;}
-#bottom-footer { background-color:#222; width: 100%; left: 0; bottom: 0; overflow:auto; z-index: 20; padding: 20px 0px;}
+#bottom-footer { background-color:#003246; width: 100%; left: 0; bottom: 0; overflow:auto; z-index: 20; padding: 20px 0px;}
 
 #footer-nav-links { position: relative;  font-size: 12px; text-align:right; }
 #footer-nav-links li {display:inline; margin-right: 10px;}
