@@ -11,9 +11,9 @@
                        </div>
 					 <!-- Footer Menu -->  
      	            <?php if ( has_nav_menu( 'footer-menu' ) ) :
-         			wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => '', 'menu_id' =>'footer-nav-links', 'menu_class'=>'footer-menu seven-col last', 'depth' => 0, ) );
+         			//wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => '', 'menu_id' =>'footer-nav-links', 'menu_class'=>'footer-menu seven-col last', 'depth' => 0, ) );
 			        endif; ?>
-					<p align="center" style="color:white; font-size:0.8em;padding:0;">Partnering with <br><img src="https://warmestwishes.ca/img/uwtyr_logo_ww_micrositebanner_cropped.png" width="150em"></p>
+					<p style="color:white; font-size:0.8em;padding:0;">Partnering with <br><a href="https://www.unitedwaytyr.com"><img src="https://warmestwishes.ca/img/uwtyr_logo_ww_micrositebanner_cropped.png" width="150em"></a></p>
 					
                     </div>
                 </div><!-- end #inner-footer -->
