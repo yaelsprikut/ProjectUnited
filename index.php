@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 	<?php 
-	//infinite scroll (technically goes up to 100 but can be altered)
+	//infinite scroll (technically goes up to 100 but can be altered) YS
 		$temppp = get_option( 'posts_per_page' );
 		update_option( 'posts_per_page', 100 );
 	?>

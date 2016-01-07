@@ -18,7 +18,7 @@
 				<div class="section-inner">
 					
 					<ul class="primary-menu">
-						<li><img src="http://projectunitedcity.com/wp-content/uploads/2015/12/ProjectUnited_Logo_Name_White.png" width="40%" style="padding-top:1.1em;"></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" style="padding:0;"><img src="http://projectunitedcity.com/wp-content/uploads/2015/12/ProjectUnited_Logo_Name_White.png" width="40%" style="padding-top:1.1em;"></a></li>
 						<?php 
 							if ( has_nav_menu( 'primary' ) ) {
 								wp_nav_menu( array( 
@@ -79,7 +79,7 @@
 				 <img src="http://projectunitedcity.com/wp-content/uploads/2015/12/ProjectUnited_Logo-Only.png" width="100em"><br>
 				 <h4 class="postheader">Project United is a Movement aimed at empowering those battling poverty.</h4>
 				 <h5 class="postheader">We are mapping stories to raise awareness, create change and engage you.</h5><br><br>
-				 <div align="center"><a class="btn" href="http://projectunitedcity.com/story-map-page/">&#10097; Read Our Stories</a></div>
+				 <div align="center"><a class="btn" href="http://projectunited.ca/story-map-page/">&#10097; Read Our Stories</a></div>
 			 </p>		
 		</div>'; ?>
 		<!-- /postheader -->
