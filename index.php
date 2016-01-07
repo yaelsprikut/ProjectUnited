@@ -8,9 +8,10 @@
 		<div class="home-container">
      	    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class('item-list mbottom'); ?>>
-        <div  class="cthumb">
+        <div id="title" class="cthumb">
             <a href="<?php the_permalink(); ?>">
-			  <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'medium'); } else { ?>
+				         			<h5 class="text"><?php the_title(); ?></h5>
+			  <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'large'); } else { ?>
                 <img src="<?php  echo get_template_directory_uri(); ?>/images/default-image.png" alt="<?php the_title_attribute();  ?>" />
               <?php } ?>
             </a>
@@ -21,9 +22,6 @@
        		    <p class="vsmall pnone">
      		        <span class="mdate alignright"><?php echo the_time(get_option( 'date_format' )) ?></span></p>
 			</div>
-
-		<h5><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h5>
-         
             
         </div>
     </article>

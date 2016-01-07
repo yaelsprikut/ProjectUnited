@@ -19,7 +19,7 @@
 				<div class="section-inner">
 					
 					<ul class="primary-menu">
-						<li><img src="http://projectunitedcity.com/wp-content/uploads/2015/12/ProjectUnited_Logo_Name_White.png" width="40%" style="padding-top:1.1em;"></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" style="padding:0;"><img src="http://projectunitedcity.com/wp-content/uploads/2015/12/ProjectUnited_Logo_Name_White.png" width="40%" style="padding-top:1.1em;"></a></li>
 						<?php 
 							if ( has_nav_menu( 'primary' ) ) {
 								wp_nav_menu( array( 
