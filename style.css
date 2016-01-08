@@ -107,7 +107,7 @@ h5.postheader{color:#fff; text-align:center;}
 .entry-content p{padding:10px 20px;}
 .entry-content a{ border-bottom: 1px solid #DDD;}
 .entry-content a:hover{ border-bottom-color: #1e8cbe; }
-.entry-content p, .entry-content li{font-size:14px; line-height:2.2;}
+.entry-content p, .entry-content li{font-size:14px; line-height:1.50em;}
 /* .entry-content p a, .entry-content li a{border-bottom:3px solid;} */
 
 #inner-content{overflow:auto;}
@@ -1058,7 +1058,7 @@ footer .widget_recent_comments li, footer .widget_rss li{margin:1px !important;}
 .container{/*width:768px;*/ width:100%;}
 #top-header ul, #main-menu{display:none; background-color:#F6F8F8;}
 .our_team .item{margin:0px !important; width:25%;}
-.cat-container article, .home-container article{width:50% !important; margin-right:0px !important; min-height:554px;}
+.cat-container article, .home-container article{width:50% !important; margin-right:0px !important; min-height:15.100em;}
 .home-container .item-list:nth-child(3n+2) {margin-left:0px;}
 .cat-container .item-list:nth-child(3n) {margin-left:0px;}
 #menu-icon{display:block;}
@@ -1213,7 +1213,7 @@ footer .widget_recent_comments li, footer .widget_rss li{margin:1px !important;}
 #main-nav #main-menu ul li a{color:#fff !important; text-shadow:none !important; width: 90%; padding:10px 5%; font-weight:bold; font-size:12px;}
 #main-nav #main-menu li:hover{background-color: #333; /* #1e8cbe;  #F6F8F8; */}
 #main-nav  #main-menu li a:hover, #main-nav  #main-menu li ul li a:hover  {background-color:rgba(255,255,255,0.1)  /*#1e8cbe  #F6F8F8 */ !important;}
-.cat-container article, .home-container article{min-height:470px; width:100% !important;}
+.cat-container article, .home-container article{min-height:15.100em; width:100% !important;}
 
 .home-container .item-list:nth-child(3n+2) {margin-right:0px; margin-left:0px;}
 .cat-container .item-list:nth-child(3n) {margin-left:0px;}
@@ -1240,7 +1240,7 @@ footer .widget_recent_comments li, footer .widget_rss li{margin:1px !important;}
 #footer-social-icons, #footer-copyright{float:none !important;text-align:center;clear:both;}
 #sidebar{margin-left:0px !important; width:100%}
 .post-container,.page-container,.cat-container,.home-container {margin-right:0px !important;}
-.cat-container article, .home-container article{width:100% !important; margin-right:0px !important; min-height:434px;}
+.cat-container article, .home-container article{width:100% !important; margin-right:0px !important; min-height:15.100em;}
 .home-container .item-list:nth-child(3n+2) {margin-right:0px; margin-left:0px;}
 .cat-container .item-list:nth-child(3n) {margin-left:0px;}
 #menu-icon{display:block;} #main-nav-wrap{position:relative;}
