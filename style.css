@@ -1048,7 +1048,7 @@ footer .widget_recent_comments li, footer .widget_rss li{margin:1px !important;}
 @media only screen and ( max-width: 1024px ) and (min-width: 987px){
 .container{/*width:986px;*/ width:100%;}
 .our_team .item{margin:4px !important;}
-.cat-container article, .home-container article{min-height:500px;}
+.cat-container article, .home-container article{min-height:15.100em;}
 .cdetail .postmeta{width:84%; position:absolute;bottom:10px; }
 .our_authors .item{margin:7.4px;}
 }	
